@@ -1,0 +1,174 @@
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+	/* toe te voegen */
+}
+.all {
+	text-align : left;
+	width : 700px;
+	margin : 100px auto;
+	min-height : 600px;
+	background-image : url("grfx/bg.jpg");
+	border : 4px solid red;
+}
+
+article{
+
+background-color:rgba( 255,255,255,0.6) ;
+padding: 8px;
+top:0px;
+position: relative;
+}
+
+
+
+#humanfactor {
+    display: inline-block;
+    color: blue;
+}
+
+ #humanfactor2 {
+    visibility: hidden;
+    width: 190px;
+    background-color: white;
+    color: blue;
+    text-align: left justify;
+    border-radius: 6px;
+    padding: 5px;
+		border: 2px solid blue;
+		font-size: 13px;
+		left: 583px;
+		top: 110px;
+		position: absolute;
+	   z-index 1;
+}
+
+#humanfactor:hover #humanfactor2 {
+    visibility: visible;
+}
+
+h1{
+margin-bottom: 10px;
+}
+
+
+nav
+{
+		background: linear-gradient(black, black, grey);
+  	height: 20px;
+		width: 1005px;
+		margin-left: 300px;
+}
+
+
+nav a{
+
+	margin-left: 40px;
+	color: grey;
+	font-style: bold;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+#screwdriver
+{
+	position: relative;
+	left: 380px;
+	bottom: 180px;
+}
+#screwdriver:hover
+{
+	left: 370px;
+	bottom: 170px;
+}
+
+#title:hover{
+  position: relative;
+	left: 0px;
+	bottom: 160px;
+}
+
+#title{
+  position: relative;
+	left: 10px;
+	bottom: 150px;
+}
+
+#pincers{
+	position: relative;
+	left: 560px;
+	bottom: 40px;
+}
+
+#pincers:hover{
+	position: relative;
+	left: 550px;
+	bottom: 30px;
+}
+
+#saw{
+	position: relative;
+	right: 350px;
+}
+
+#saw:hover{ right: 340px; top: 20px;}
+
+#hammer{
+	position: relative;
+	bottom: 80px;
+}
+
+#hammer:hover{
+bottom: 5px;
+top: 5px;
+}
+
+
+#toolbox{
+	display: inline-block;
+	color: yellow;
+	right: 150px;
+	position: relative;
+	}
+
+ul{
+  visibility: hidden;
+	background-color: white;
+	font-size: 13px;
+	position: absolute;
+	z-index: 1;
+	top: 80px;
+	border: 1px black;
+	padding: 0;
+	color: grey;
+}
+
+#toolbox:hover ul{
+	visibility: visible;
+}
+
+li {
+display:block;
+padding: 10px;
+border: 1px solid black;
+width: 80px;
+text-align: center;
+}
+
+li:hover {
+background:rgba(233,244,110,0.8);
+}
+
+li a{
+		text-decoration: none;
+		color: grey;
+	}
+
+li:hover a{
+color: black;
+}
